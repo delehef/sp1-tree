@@ -5,7 +5,7 @@ name = "store-tree-program"
 edition = "2021"
 
 [dependencies]
-sp1-zkvm = { git = "https://github.com/delehef/sp1.git" }
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
 hex = "0.4"
 trivial_tree = { version = "0.1.0", path = "../../trivial_tree" }
 
