@@ -2900,6 +2900,7 @@ dependencies = [
  "sha256",
  "sp1-helper",
  "sp1-sdk",
+ "trivial_tree",
 ]
 
 [[package]]
@@ -3282,6 +3283,14 @@ dependencies = [
  "tracing",
  "tracing-core",
  "tracing-log",
+]
+
+[[package]]
+name = "trivial_tree"
+version = "0.1.0"
+dependencies = [
+ "rand",
+ "sha2 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

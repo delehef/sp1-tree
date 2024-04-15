@@ -9,6 +9,7 @@ rand = "0.8.5"
 sp1-sdk = { git = "https://github.com/delehef/sp1.git" }
 blake2 = "0.10"
 hex = "0.4"
+trivial_tree = { version = "0.1.0", path = "../../trivial_tree", features = ["std"] }
 
 [dependencies.sha256]
 version = "1.5"
