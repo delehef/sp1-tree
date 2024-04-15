@@ -241,7 +241,7 @@ dependencies = [
  "ecdsa",
  "elliptic-curve",
  "once_cell",
- "sha2 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sha2",
  "signature",
 ]
 
@@ -389,16 +389,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "sha2"
-version = "0.10.8"
-source = "git+https://github.com/sp1-patches/RustCrypto-hashes.git?branch=patch-v0.10.8#3d692aa90b91513886d757d01f8fc2d51c0ec0d7"
-dependencies = [
- "cfg-if",
- "cpufeatures",
- "digest",
-]
-
-[[package]]
 name = "sha256"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -407,7 +397,7 @@ dependencies = [
  "async-trait",
  "bytes",
  "hex",
- "sha2 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sha2",
 ]
 
 [[package]]
@@ -423,7 +413,7 @@ dependencies = [
 [[package]]
 name = "sp1-precompiles"
 version = "0.1.0"
-source = "git+https://github.com/delehef/sp1.git#0049ad8fb7452fc0f3721e99f42b07c2913704db"
+source = "git+https://github.com/succinctlabs/sp1.git#12c841b29f596b3949d446ea923ee60efa0350f5"
 dependencies = [
  "anyhow",
  "bincode",
@@ -437,7 +427,7 @@ dependencies = [
 [[package]]
 name = "sp1-zkvm"
 version = "0.1.0"
-source = "git+https://github.com/delehef/sp1.git#0049ad8fb7452fc0f3721e99f42b07c2913704db"
+source = "git+https://github.com/succinctlabs/sp1.git#12c841b29f596b3949d446ea923ee60efa0350f5"
 dependencies = [
  "bincode",
  "cfg-if",
@@ -447,7 +437,7 @@ dependencies = [
  "once_cell",
  "rand",
  "serde",
- "sha2 0.10.8 (git+https://github.com/sp1-patches/RustCrypto-hashes.git?branch=patch-v0.10.8)",
+ "sha2",
  "sp1-precompiles",
 ]
 
@@ -498,7 +488,7 @@ checksum = "55937e1799185b12863d447f42597ed69d9928686b8d88a1df17376a097d8369"
 name = "trivial_tree"
 version = "0.1.0"
 dependencies = [
- "sha2 0.10.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sha2",
 ]
 
 [[package]]
