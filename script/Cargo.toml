@@ -5,7 +5,6 @@ name = "store-tree-script"
 edition = "2021"
 
 [dependencies]
-rand = "0.8.5"
 sp1-sdk = { git = "https://github.com/succinctlabs/sp1.git" }
 hex = "0.4"
 trivial_tree = { version = "0.1.0", path = "../../trivial_tree", features = ["std"] }

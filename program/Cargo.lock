@@ -455,7 +455,6 @@ dependencies = [
 name = "store-tree-program"
 version = "0.1.0"
 dependencies = [
- "hex",
  "sha256",
  "sp1-zkvm",
  "trivial_tree",
